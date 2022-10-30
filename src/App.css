@@ -1,0 +1,50 @@
+body {
+  background-image: url(./assets/fondo1.jpg);
+  background-size: cover;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+ @media(max-width: 480px){
+  .App{
+    height: 100vh;
+  }
+ }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+h1 {
+ text-shadow: 0.01em 0.01em 0.1em white;
+}
+
+p {
+  font-size: 20px;
+  margin: 5px;
+}
+
+button {
+  margin: 30px;
+  padding: 10px;
+  background-color: dodgerblue;
+  border: 1px solid steelblue;
+  border-radius: 10px;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 800;
+}
+
